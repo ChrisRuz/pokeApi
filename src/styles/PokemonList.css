@@ -1,0 +1,94 @@
+:root {
+  --primary-color: #E3350D;
+  --secondary-color: #FFCB05;
+  --accent-color: #FFf;
+}
+
+.PokemonList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.title {
+  font-size: 24px;
+  color: var(--primary-color); 
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.form {
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form input {
+  padding: 15px 5px;
+  border: 1px var(--secondary-color) solid;
+  border-radius: 10px;
+}
+
+.form .search {
+  padding: 15px 25px;
+  border-radius: 5px;
+  border: 1px red solid;
+  background-color: #fff;
+  transition: all .3s;
+}
+
+.form .search:hover {
+  background-color: var(--secondary-color);
+  color: #fff;
+  border: none;
+}
+
+.PokemonList .pagination {
+  margin-top: 20px;
+}
+
+.pagination-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.prevPage, .nextPage { 
+  background-color: var(--secondary-color); 
+  color: #000000; 
+  border: none;
+  border-radius: 25px;
+  padding: 10px 20px;
+  margin: 0 5px;
+  cursor: pointer;
+  transition: all .3s;
+}
+
+.prevPage:hover, .nextPage:hover {
+  background-color: var(--accent-color);
+  border: 1px var(--secondary-color) solid; 
+}
+
+.PokemonList .pokemon {
+  text-align: center;
+  margin: 40px;
+}
+
+.PokemonList .pokemon img {
+  width: 150px;
+  height: 150px;
+  margin-bottom: 5px;
+}
+
+@media screen and (max-width: 500px) {
+  .title{
+    text-align: center;
+  }
+  
+  .PokemonList .pokemon {
+    margin: 10px;
+  }
+}
+
