@@ -13,7 +13,7 @@ Siga estos pasos para correr la aplicación web localmente:
    
 3. Navega al directorio del proyecto:
 
-     cd pokemon-app
+     cd pokeapi
 
 3.Instala las dependencias necesarias ejecutando el siguiente comando:
 
