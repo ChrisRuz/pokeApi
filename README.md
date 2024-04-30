@@ -8,9 +8,10 @@ Siga estos pasos para correr la aplicación web localmente:
 
 1. Clona este repositorio en tu máquina local usando el siguiente comando en tu terminal:
 
-   ```bash
-   git clone https://github.com/tu-usuario/pokemon-app.git
-2. Navega al directorio del proyecto:
+  
+   git clone https://github.com/ChrisRuz/pokeapi.git
+   
+3. Navega al directorio del proyecto:
 
 cd pokemon-app
 
